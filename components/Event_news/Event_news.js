@@ -8,7 +8,7 @@ export default function Event_news() {
   return (
 <div>
     <div class="my-10">
-        <div class="h-full flex justify-center items-center py-20 bg-slate-100">
+        <div class="h-full flex justify-center items-center py-20 bg-[#f8f9fa]">
             <div class="w-3/6">
                 <div 
                 data-aos="fade-up"
@@ -22,7 +22,7 @@ export default function Event_news() {
                 </div>
             </div>
         </div>
-            <div class="grid grid-cols-1 lg:grid-cols-2 bg-slate-100 px-10 lg:px-32 py-10 lg:py-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 bg-[#f8f9fa] px-10 lg:px-32 py-10 lg:py-10">
                     <div class=""> 
                             <div 
                             data-aos="fade-up"

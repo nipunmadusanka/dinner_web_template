@@ -27,7 +27,7 @@ export default function
       }, []);
   return (
 <div>
-    <nav className="w-full z-10 bg-slate-100 shadow na fixed py-3">
+    <nav className="w-full z-10 bg-white shadow na fixed lg:py-3">
         <div className="justify-between px-4 mx-auto items-center flex lg:px-8">
           <div class="flex">
             <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
@@ -36,7 +36,7 @@ export default function
               <ul className="items-center justify-center flex space-x-4 space-y-0">
                 <li className="text-black">
                     <a href='#'>
-                      <h2 className=" text-black"><FontAwesomeIcon icon={solid('user')} size=""/></h2>
+                      <h2 className=" text-black"><FontAwesomeIcon icon={solid('shop')} size=""/></h2>
                     </a>
                 </li>
                 <li className="text-black">

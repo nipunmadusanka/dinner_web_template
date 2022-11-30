@@ -34,14 +34,15 @@ export default function Price_list() {
                 <div class="grid grid-cols-3 font-thin">
                         <div onClick={()=>{setOpen1(true); setOpen(false); setOpen3(false);}} class="text-slate-500 px-2 cursor-pointer hover:underline hover:underline-offset-8 hover:decoration-orange-500">
                         <Menulink1 name="BREAKFAST" />
+                        <p className='text-[16px] px-2'>BREAKFAST</p>
                         </div>
                         <div onClick={()=>{setOpen(true); setOpen1(false); setOpen3(false);}} class="text-slate-500 px-2 cursor-pointer hover:underline hover:underline-offset-8 hover:decoration-orange-500">
                         
-                        <p>BRUNCH</p>
+                        <p className='text-[16px]'>BRUNCH</p>
                         </div>
                         <div onClick={()=>{setOpen3(true); setOpen(false); setOpen1(false);}} class="text-slate-500 px-2 cursor-pointer hover:underline hover:underline-offset-8 hover:decoration-orange-500">
                        
-                        <p>DINNER</p>
+                        <p className='text-[16px] px-2'>DINNER</p>
                         </div>
                         </div>
                 </div>

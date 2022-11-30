@@ -24,7 +24,7 @@ export default function View_menu() {
             <div class="flex justify-center items-center">
               <div className='lg:p-14 p-10'>
                 <h6
-                  class="custom-font-playfair font-medium text-white mt-4 text-start text-sm lg:text-3xl">
+                  class="custom-font-playfair font-medium text-white mt-4 text-start text-3xl">
                   Feature Menu
                 </h6>
                 <p class="tracking-wide lg:leading-[2rem] font-thin text-white/60 mt-4 text-start text-[16px]">
@@ -50,7 +50,7 @@ export default function View_menu() {
           <div class="flex justify-center items-center">
               <div className='lg:p-14 p-10'>
                 <h6
-                  class="custom-font-playfair font-medium text-white mt-4 text-start text-sm lg:text-3xl">
+                  class="custom-font-playfair font-medium text-white mt-4 text-start text-3xl">
                   Master Chef
                 </h6>
                 <p class="tracking-wide lg:leading-[2rem] font-thin text-white/60 mt-4 text-start text-[16px]">
