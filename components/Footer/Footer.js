@@ -6,8 +6,8 @@ export default function Footer() {
         AOS.init({ duration: 2000 });
       }, []);
   return (
-    <div>
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 my-10 p-6 lg:p-11 lg:mx-20">
+    <div className=''>
+        <div class="curve1 grid grid-cols-1 lg:grid-cols-4 gap-4 my-10 p-6 lg:p-11 lg:mx-20">
             <div 
             data-aos="fade-right"
             data-aos-offset="200"
@@ -57,13 +57,15 @@ export default function Footer() {
             data-aos-delay="110"
             data-aos-duration="1600"
             data-aos-easing="ease-in-out"
-            class="flex">
+            class="lg:flex">
                 <div class="text-left px-2">
                     <h3 class="text-left text-xl my-8">Subscribe</h3>
                     <p class="text-gray-400 font-thin lg:pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     <form class="my-2">
-                        <input type="text" class="p-2 bg-gray-200" placeholder="Email"></input>
+                        <div class="flex items-center justify-center font-thin">
+                        <input type="text" class="p-2 bg-gray-100 w-full" placeholder="Email"></input>
                         <button class="bg-amber-500 hover:bg-amber-200 hover:duration-300 p-2 px-5 text-white">SEND</button>
+                        </div>
                     </form>
                     <h3 class="text-left text-xl py-6">Contact Us</h3>
                     <a href="info@yourdomain.com" class="text-amber-300 font-thin">info@yourdomain.com</a> <br></br>

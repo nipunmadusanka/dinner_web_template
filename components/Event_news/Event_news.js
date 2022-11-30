@@ -1,6 +1,14 @@
 import React, { useEffect }from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+ import {
+  solid,
+  regular,
+  brands,
+  icon
+ } from '@fortawesome/fontawesome-svg-core/import.macro'
+ import '@fortawesome/fontawesome-svg-core/styles.css'
 export default function Event_news() {
     useEffect(() => {
         AOS.init({ duration: 2000 });
@@ -38,7 +46,7 @@ export default function Event_news() {
                                 </div>
                                 <div class="lg:col-span-2 lg:text-left lg:pl-9 px-3 lg:px-0">
                                     <a href="" class="text-xl ">Birthday Party Held in Diner Restaurant</a>
-                                    <br></br><span class="text-slate-600 font-thin"> APRIL 22, 2018</span>
+                                    <br></br><span class="text-slate-600 font-thin"><FontAwesomeIcon icon={solid('calendar')} size=""/> APRIL 22, 2018</span>
                                     <p class="font-thin text-[16px] text-slate-600 pt-6 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus</p>
                                     <button class="font-thin border-solid border-2 rounded px-6 my-2 p-1 border-orange-400 text-orange-300 hover:bg-orange-400 hover:text-white">Read More</button>
                                 </div>
@@ -57,7 +65,7 @@ export default function Event_news() {
                                 </div>
                                 <div class="lg:col-span-2 lg:text-left lg:pl-9 px-3 lg:px-0">
                                     <a href="" class="text-xl ">Drinks Overload</a>
-                                    <br></br><span class="text-slate-600 font-thin"> APRIL 22, 2018</span>
+                                    <br></br><span class="text-slate-600 font-thin"><FontAwesomeIcon icon={solid('calendar')} size=""/> APRIL 22, 2018</span>
                                     <p class="font-thin text-[16px] text-slate-600 pt-6 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus</p>
                                     <button class="font-thin border-solid border-2 rounded px-6 my-2 p-1 border-orange-400 text-orange-300 hover:bg-orange-400 hover:text-white">Read More</button>
                                 </div>
@@ -76,7 +84,7 @@ export default function Event_news() {
                                 </div>
                                 <div class="lg:col-span-2 lg:text-left lg:pl-9 px-3 lg:px-0">
                                     <a href="" class="text-xl ">New Recipe: Steak Steak Steak.</a>
-                                    <br></br><span class="text-slate-600 font-thin"> APRIL 22, 2018</span>
+                                    <br></br><span class="text-slate-600 font-thin"><FontAwesomeIcon icon={solid('calendar')} size=""/> APRIL 22, 2018</span>
                                     <p class="font-thin text-[16px] text-slate-600 pt-6 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus</p>
                                     <button class="font-thin border-solid border-2 rounded px-6 my-2 p-1 border-orange-400 text-orange-300 hover:bg-orange-400 hover:text-white">Read More</button>
                                 </div>
@@ -96,7 +104,7 @@ export default function Event_news() {
                             </div>
                             <div class="lg:text-left px-3 lg:px-0 lg:pt-3">
                                     <a href="" class="text-xl ">Food that are best for your overall health</a>
-                                    <br></br><span class="text-slate-600 font-thin"> APRIL 22, 2018</span>
+                                    <br></br><span class="text-slate-600 font-thin"><FontAwesomeIcon icon={solid('calendar')} size=""/> APRIL 22, 2018</span>
                                     <p class="font-thin text-[16px] text-slate-600 pt-6 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus</p>
                                     <button class="font-thin border-solid border-2 rounded px-6 my-2 p-1 border-orange-400 text-orange-300 hover:bg-orange-400 hover:text-white">Read More</button>
                                 </div>

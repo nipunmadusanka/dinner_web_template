@@ -40,7 +40,7 @@ export default function Home() {
       </div>
     </div>
 
-        <One_comp/>
+        <One_comp />
         <Food_type />
         <Swipper />
         <View_menu />
@@ -50,9 +50,6 @@ export default function Home() {
         <Footer />    
 
     </main>
-
-        
-        
   </div>
   )
 }

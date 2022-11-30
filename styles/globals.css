@@ -27,6 +27,10 @@
   position: sticky;
   top: 2rem;
 }
+.curve1 {
+  background-image: url(/img/curve_line.svg) repeat-x top left;
+  padding: 7em 0;
+}
 .chef_2 {
   background-image: url('/img/chef_2.jpg.webp');
   background-size: cover;
