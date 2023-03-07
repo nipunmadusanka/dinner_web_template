@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
    solid
  } from '@fortawesome/fontawesome-svg-core/import.macro'
  import '@fortawesome/fontawesome-svg-core/styles.css'
+import Section from './Section';
 export default function One_comp() {
     useEffect(() => {
         AOS.init({ duration: 2000 });
@@ -14,80 +15,10 @@ export default function One_comp() {
     <div>
 <div class="flex justify-center items-center sm:h-screen bg-white h-full my-10">
     <div class="grid grid-cols-1 sm:grid-cols-4 md:grid-cols-4 gap-1 gap-y-8">
-        <div
-        data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        class="flex-row w-64 px-3 justify-center items-center duration-500 relative transform transition-all translate-y-12 ease-out" data-replace='{ "translate-y-12": "translate-y-0" }'>
-                <div class="justify-center items-center flex">
-                    <div class="h-24 w-24 flex rounded-full bg-[#fdb44b] justify-center items-center">
-                        <div class="">
-                        <FontAwesomeIcon icon={solid('coffee')} size="3x"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <h6 class="custom-font-playfair font-medium text-xl text-black mt-4 text-center">Quality Cuisine</h6>
-                    <p class="leading-[28px] tracking-wide text-slate-600 mt-4 font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
-                </div>
-        </div>
-        <div 
-        data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="70"
-        data-aos-duration="1200"
-        data-aos-easing="ease-in-out"
-        class="flex-row w-64 px-3 justify-center items-center duration-500 relative transform transition-all translate-y-12 ease-out" data-replace='{ "translate-y-12": "translate-y-0" }'>
-            <div class="justify-center items-center flex">
-                <div class="h-24 w-24 flex rounded-full bg-[#fdb44b] justify-center items-center">
-                    <div class="">
-                    <FontAwesomeIcon icon={solid('gift')} size="3x"/>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center">
-                <h3 class="custom-font-playfair font-medium text-black mt-4 text-xl text-center">Fresh Food</h3>
-                <p class="leading-[28px] tracking-wide text-slate-600 mt-4 font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
-            </div>
-        </div>
-        <div data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="90"
-        data-aos-duration="1400"
-        data-aos-easing="ease-in-out"
-        class="flex-row w-64 px-3 justify-center items-center duration-500 relative transform transition-all translate-y-12 ease-out" data-replace='{ "translate-y-12": "translate-y-0" }'>
-            <div class="justify-center items-center flex">
-                <div class="h-24 w-24 flex rounded-full bg-[#fdb44b] justify-center items-center">
-                    <div class="">
-                    <FontAwesomeIcon icon={solid('mug-hot')} size="3x"/>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center">
-                <h3 class="custom-font-playfair font-medium text-black mt-4 text-xl text-center">Friendly Staff</h3>
-                <p class="leading-[28px] tracking-wide text-slate-600 mt-4 font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
-                </div>
-        </div>
-        <div data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="110"
-        data-aos-duration="1600"
-        data-aos-easing="ease-in-out"
-        class="flex-row w-64 px-3 justify-center items-center duration-500 relative transform transition-all translate-y-12 ease-out" data-replace='{ "translate-y-12": "translate-y-0" }'>
-            <div class="justify-center items-center flex">
-                <div class="h-24 w-24 flex rounded-full bg-[#fdb44b] justify-center items-center">
-                    <div class="">
-                    <FontAwesomeIcon icon={solid('star')} size="3x"/>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center">
-                <h3 class="custom-font-playfair font-medium text-black mt-4 text-xl text-center">Easy Reservation</h3>
-                <p class="font-thin leading-[28px] tracking-wide text-slate-600 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
-                </div>
-        </div>
+        <Section icon="coffee" title="Quality Cuisine" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe"/>
+        <Section icon="coffee" title="Fresh Food" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe"/>
+        <Section icon="coffee" title="Friendly Staff" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe"/>
+        <Section icon="coffee" title="Easy Reservation" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe"/>
     </div>
 </div>
 <div data-aos="fade-up"

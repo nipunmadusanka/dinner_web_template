@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
    solid
  } from '@fortawesome/fontawesome-svg-core/import.macro'
  import '@fortawesome/fontawesome-svg-core/styles.css'
-import Nav from '../components/Nav/Nav'
 import One_comp from '../components/One_comp/One_comp'
 import Swipper from '../components/Swipper/Swipper';
 import Food_type from '../components/Food_type/Food_type';
@@ -31,7 +30,6 @@ export default function Home() {
     </Head>
     <main>
   <div class="bg-no-repeat content_bg justify-center items-center bg-center h-screen bg-cover bg-fixed bg-black">
-    <Nav/>
       <div class="flex py-10 h-full items-center justify-center">
         <div class="w-10/12 md:w-8/12 lg:w-8/12 text-white" >
                 <p class="tracking-wide lg:leading-[4rem] custom-font-playfair text-4xl lg:text-5xl md:text-4xl text-start">
